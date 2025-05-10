@@ -1,6 +1,6 @@
 # process_imessage_numbers
 
-A simple Python utility to check which phone numbers in your list are iMessage-enabled, using the BlueBubbles API. Ideal for anyone—technical or not—who wants to filter a list of phone numbers down to only those that can receive iMessages.
+A simple Python utility to check which phone numbers in your list are iMessage-enabled, using the BlueBubbles API. This script is useful if you want to narrow a large list of numbers down to numbers that are likely personal lines; for example, if one has a list of numbers businesses in their area have listed publicly, the ones that are iMessage enabled are likely the owners' personal lines.
 
 ---
 
@@ -89,16 +89,3 @@ cd process_imessage_numbers
 * **Script errors during startup**: Ensure `credentials.txt` and `pwd.txt` exist and contain valid values.
 * **Permission denied**: Run the script with a Python virtual environment or with `sudo` if necessary.
 * **Empty output**: No numbers in your list are iMessage-enabled, or your BlueBubbles server isn’t reachable. Verify your server URL and password.
-
----
-
-## 📖 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-*Happy messaging!*
-
-```
-``` 
